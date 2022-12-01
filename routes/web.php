@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\ProfileController;
+use App\Http\Controllers\TasksController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -23,4 +24,5 @@ Route::middleware('auth')->group(function () {
     Route::delete('/profile', [ProfileController::class, 'destroy'])->name('profile.destroy');
 });
 
+Route::get('/tasks/', [TasksController::class, 'create'])->middleware(['auth']);
 require __DIR__.'/auth.php';

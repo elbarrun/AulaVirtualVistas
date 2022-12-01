@@ -45,7 +45,7 @@
         <p class="card-text display-6">Aula Virtual Educación</p>
         <a href="landing.html" class="card-link">Página Principal</a>
         <a href="mensajes.html" class="card-link">Mensajes</a>
-        <a href="tarea.html" class="card-link">Tareas</a>
+        <a href="{{url('tasks')}}" class="card-link">Tareas</a>
     </div>
 </div>
 
