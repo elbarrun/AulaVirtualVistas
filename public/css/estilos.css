@@ -1,0 +1,31 @@
+.navbar{
+    background-color: #2D572C;
+}
+
+.navbar-brand{
+    color: #bdecb6;
+}
+
+h2{
+    font-weight: normal;
+}
+
+h4{
+    font-weight: normal;
+}
+
+span{
+    margin-left: 49px;
+}
+
+.sinSUB{
+    text-decoration: none;
+}
+
+.label{
+    background-color: #c1c1c3;
+}
+
+.label2{
+    background-color: #eeeeee;
+}
